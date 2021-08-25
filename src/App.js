@@ -13,7 +13,7 @@ function App() {
       <ScrollTop />
       <Navbar />
       <Switch>
-        <Route exact path="/" exact component={HomePage} />
+        <Route exact path="/" component={HomePage} />
         <Route exact path="/projects" component={ProjectPage} />
         <Route exact path="/experience" component={ExperiencePage} />
       </Switch>
