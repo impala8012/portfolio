@@ -5,7 +5,6 @@ import { Navbar, Footer } from "./components";
 import HomePage from "./pages/HomePage/HomePage";
 import ExperiencePage from "./pages/ExperiencePage/ExperiencePage";
 import ProjectPage from "./pages/ProjectPage/ProjectPage";
-import SignupPage from "./pages/SignupPage/SignupPage";
 import ScrollTop from "./components/ScrollTop"
 function App() {
   return (
@@ -14,10 +13,9 @@ function App() {
       <ScrollTop />
       <Navbar />
       <Switch>
-        <Route path="/" exact component={HomePage} />
-        <Route path="/projects" component={ProjectPage} />
-        <Route path="/experience" component={ExperiencePage} />
-        <Route path="/signup" component={SignupPage} />
+        <Route path="/portfolio/" exact component={HomePage} />
+        <Route path="/portfolio/projects" component={ProjectPage} />
+        <Route path="/portfolio/experience" component={ExperiencePage} />
       </Switch>
       <Footer />
     </Router>
