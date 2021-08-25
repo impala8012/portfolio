@@ -1,6 +1,6 @@
 import React from "react"
 import GlobalStyle from "./globalStyles";
-import { HashRouter as Router, Switch, Route} from "react-router-dom"
+import { BrowsweRouter as Router, Switch, Route} from "react-router-dom"
 import { Navbar, Footer } from "./components";
 import HomePage from "./pages/HomePage/HomePage";
 import ExperiencePage from "./pages/ExperiencePage/ExperiencePage";
