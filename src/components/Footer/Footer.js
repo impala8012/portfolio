@@ -24,7 +24,7 @@ import {
 const Footer = () => {
   return (
     <div>
-      <FooterContainer>
+      <FooterContainer id="contact">
         <FooterSubscription>
           <FooterSubHeading>Contact Me</FooterSubHeading>
           <FooterSubText>
@@ -54,7 +54,9 @@ const Footer = () => {
                 <GoMarkGithub />
               </FooterLinkTitle>
               <FooterLink>
-                https://github.com/impala8012
+                <a href="https://github.com/impala8012">
+                  https://github.com/impala8012
+                </a>
               </FooterLink>
             </FooterLinksItem>
           </FooterLinksWrapper>

@@ -9,7 +9,7 @@ export const introObj = {
   topLine: "嗨 你好",
   headLine: "我是羅文駿",
   description:
-    "「程式導師實驗計劃第四期」的學生，接觸網頁前後端對 coding 的熱愛，喜歡不斷學習，碰到新東西都會想嘗試看看永無止盡的新技術",
+    "「程式導師實驗計劃第四期」的學生，結束後，對於自己的不足於是利用 codecademy pro 自學，加深自己對前後端的知識。接觸網頁前後端對 coding 的熱愛，享受把問題解出來的霎那間的成就感，讓自己的想法實踐於 code 上，目前正在不斷學習與精進努力朝著前端工程師前進。",
   buttonLabel: "Get Started",
   img: "http://www.urad.com.tw/wp-content/uploads/2015/08/giphy.gif",
   alt: "Image",
@@ -47,7 +47,7 @@ export const educationData = [
     description: "畢業生",
     time: "Jun, 2020 – Jan, 2021",
     content:
-      "參加由 Lidemy 鋰學院創辦人 Huli 所開設的 【 程式導師計畫第三期 】，過著與 24 週作業 為伍的日子，期間加強了許多以往模糊不清的觀念，並在 Blog 持續發表技術筆記。",
+      "參加由 Lidemy 鋰學院創辦人 Huli 所開設的 【 程式導師計畫第四期 】，過著與 24 週作業 為伍的日子，期間加強許多關於網頁前後端的觀念。",
   },
   {
     id: "experience1",
@@ -92,6 +92,6 @@ export const experienceData = [
     headLine: "東吳大學",
     description: "研究助理",
     time: "Nov, 2015 – Feb, 2018",
-    content: "協助研究計畫的進行，並處理相關行政工作。",
+    content: "協助研究計畫的進行，處理相關行政工作。",
   },
 ];

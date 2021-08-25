@@ -9,7 +9,10 @@ import {
   ImgInfoTitle,
   ImgInfoContent,
   ImgInfoLinks,
-  ImgInfoLink
+  ImgInfoLink,
+  SliderTitle,
+  SliderContent,
+  SliderTextWrapper,
 } from "./Slider.element";
 import { SliderData } from "./Data";
 
@@ -30,6 +33,10 @@ const Slider = ({slides}) => {
   }
   return (
     <SliderContainer>
+      <SliderTextWrapper id="projects">
+        <SliderTitle>我的作品</SliderTitle>
+        {/* <SliderContent>一共有四個作品，可以按左右箭頭查看</SliderContent> */}
+      </SliderTextWrapper>
       <RightArrow onClick={prevSlide} />
       <LefttArrow onClick={nextSlide} />
       {SliderData.map((slide, index) => {

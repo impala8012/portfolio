@@ -1,16 +1,15 @@
 import React from 'react'
-import { InfoSection, Slider, Pricing, InfoExperience } from "../../components";
-import { experienceData, introObj, educationData, projectObj } from "./Data";
+import { InfoSection, Slider, InfoExperience } from "../../components";
+import { experienceData, introObj, educationData } from "./Data";
 import { SliderData } from "../../components/Slider/Data"
 const HomePage = () => {
   return (
     <>
       <InfoSection {...introObj} />
-      <InfoSection {...projectObj} />
-      <InfoExperience experienceData={educationData} />
+      {/* <InfoSection {...projectObj} /> */}
       <Slider slides={SliderData} />
-      <Pricing />
-      <InfoExperience experienceData={experienceData} lightBg="true" id="experience"/>
+      <InfoExperience experienceData={educationData} id="experience" />
+      <InfoExperience experienceData={experienceData} lightBg="true" />
     </>
   );
 }

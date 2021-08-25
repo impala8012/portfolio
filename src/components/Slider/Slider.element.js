@@ -7,7 +7,20 @@ export const SliderContainer = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
+  /* margin-top: 50px; */
 `;
+
+export const SliderTextWrapper = styled.div`
+  position: absolute;
+  top: 5%;
+  right: 20%;
+`;
+
+export const SliderTitle = styled.h1`
+ font-size: 48px;
+`;
+
+export const SliderContent = styled.div``
 
 export const RightArrow = styled(FaArrowAltCircleRight)`
   position: absolute;
@@ -57,7 +70,6 @@ export const ImgInfo = styled.div`
   opacity: 0;
   transform: scale(0);
   transition: 0.5s;
-
 
 `;
 export const ImageContainer = styled.div`
@@ -128,4 +140,9 @@ export const ImgInfoLink = styled.a`
   white-space: nowrap;
   font-size: 24px;
   outline: none;
+  color: #fff;
+
+  &:visited {
+    color: #fff
+  }
 `;
