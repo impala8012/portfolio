@@ -1,6 +1,6 @@
 import React from "react"
 import GlobalStyle from "./globalStyles";
-import { BrowsweRouter as Router, Switch, Route} from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Navbar, Footer } from "./components";
 import HomePage from "./pages/HomePage/HomePage";
 import ExperiencePage from "./pages/ExperiencePage/ExperiencePage";

@@ -1,10 +1,10 @@
 import React from "react";
-import { InfoSection } from "../../components";
-import { homeObjTwo } from "./Data";
+import { Slider } from "../../components";
+import { SliderData } from "../../components/Slider/Data";
 const ProjectPage = () => {
   return (
     <>
-      <InfoSection {...homeObjTwo} />
+      <Slider slides={SliderData} />
     </>
   );
 };
